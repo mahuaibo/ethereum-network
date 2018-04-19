@@ -4,4 +4,4 @@ docker stop ethereum-ropsten-node
 
 docker rm ethereum-ropsten-node
 
-rm -rvf /root/ethereum/src/ropsten/data
+rm -rvf ~/ethereum/src/ropsten/data

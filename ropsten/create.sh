@@ -1,9 +1,9 @@
 #! /bin/bash
 
-mkdir -p /root/ethereum/src/ropsten/data
+mkdir -p ~/ethereum/src/ropsten/data
 
 docker run -d --name ethereum-ropsten-node \
-    -v /root/ethereum/src/ropsten/data:/root \
+    -v ~/ethereum/src/ropsten/data:/root \
     -p 28545:8545 \
     -p 28546:8546 \
     -p 20303:30303 \

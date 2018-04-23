@@ -19,7 +19,7 @@
 ## Using.
 
 ### Download ethereum-testnet
-> git clone https://github.com/mahuaibo/ethereum-testnet ~/
+> git clone https://github.com/mahuaibo/ethereum-testnet ~/ethereum-testnet
 > cd ~/ethereum-testnet
 
 ### Rinkeby

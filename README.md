@@ -146,3 +146,14 @@ $ sh kovan/full-remove.sh
 $ sh kovan/full-console.sh
 
 ```
+
+## Get the test network coin.
+
+```
+
+https://faucet.rinkeby.io/
+http://faucet.ropsten.be:3001/
+https://gitter.im/kovan-testnet/faucet
+
+MetaMask wallet can also be picked up.
+```

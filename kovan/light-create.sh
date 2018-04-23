@@ -1,6 +1,6 @@
 #! /bin/bash
 
-mkdir -p -v ~/ethereum-testnet/kovan/light
+mkdir -p ~/ethereum-testnet/kovan/light
 
 docker run -d --name ethereum-kovan-light \
     -v ~/ethereum-testnet/kovan/light:/root/.local/share/io.parity.ethereum/ \

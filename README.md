@@ -18,6 +18,10 @@
 
 ## Using.
 
+### Download ethereum-testnet
+> git clone https://github.com/mahuaibo/ethereum-testnet ~/
+> cd ~/ethereum-testnet
+
 ### Rinkeby
 
 #### light-node

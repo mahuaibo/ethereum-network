@@ -21,12 +21,16 @@
 ### Rinkeby
 
 #### light-node
-
-container-name:ethereum-kovan-light
-container-port:10303
-container-jsonrpc-port:18545
-container-ws-port:18546
-
+container
+```
+{
+    name: "ethereum-rinkeby-light",
+    port: 10303,
+    jsonrpc-port: 18545,
+    ws-port: 18546,
+}
+```
+command
 ```
 $ sh rinkeby/light-create.sh
 $ sh rinkeby/light-start.sh
@@ -37,12 +41,16 @@ $ sh rinkeby/light-console.sh
 ```
 
 #### full-node
-
-container-name:ethereum-kovan-full
-container-port:10304
-container-jsonrpc-port:18547
-container-ws-port:18548
-
+container
+```
+{
+    name: "ethereum-rinkeby-full",
+    port: 10304,
+    jsonrpc-port: 18547,
+    ws-port: 18548,
+}
+```
+command
 ```
 $ sh rinkeby/full-create.sh
 $ sh rinkeby/full-start.sh
@@ -55,12 +63,16 @@ $ sh rinkeby/full-console.sh
 ### Ropsten
 
 #### light-node
-
-container-name:ethereum-kovan-node
-container-port:20303
-container-jsonrpc-port:28545
-container-ws-port:28546
-
+container
+```
+{
+    name: "ethereum-ropsten-light",
+    port: 20303,
+    jsonrpc-port: 28545,
+    ws-port: 28546,
+}
+```
+command
 ```
 $ sh ropsten/light-create.sh
 $ sh ropsten/light-start.sh
@@ -70,12 +82,16 @@ $ sh ropsten/light-console.sh
 
 ```
 #### full-node
-
-container-name:ethereum-kovan-node
-container-port:20304
-container-jsonrpc-port:28547
-container-ws-port:28548
-
+container
+```
+{
+    name: "ethereum-ropsten-node",
+    port: 20304,
+    jsonrpc-port: 28547,
+    ws-port: 28548,
+}
+```
+command
 ```
 $ sh ropsten/full-create.sh
 $ sh ropsten/full-start.sh
@@ -89,11 +105,16 @@ $ sh ropsten/full-console.sh
 
 #### light-node
 
-container-name:ethereum-kovan-node
-container-port:30303
-container-jsonrpc-port:38545
-container-ws-port:38546
-
+container
+```
+{
+    name: "ethereum-kovan-node",
+    port: 30303,
+    jsonrpc-port: 38545,
+    ws-port: 38546,
+}
+```
+command
 ```
 $ sh kovan/light-create.sh
 $ sh kovan/light-start.sh
@@ -103,12 +124,16 @@ $ sh kovan/light-console.sh
 
 ```
 #### full-node
-
-container-name:ethereum-kovan-node
-container-port:30304
-container-jsonrpc-port:38547
-container-ws-port:38548
-
+container
+```
+{
+    name: "ethereum-kovan-full",
+    port: 30304,
+    jsonrpc-port: 38547,
+    ws-port: 38548,
+}
+```
+command
 ```
 $ sh kovan/full-create.sh
 $ sh kovan/full-start.sh

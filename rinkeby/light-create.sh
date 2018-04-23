@@ -1,9 +1,9 @@
 #! /bin/bash
 
-mkdir -p ~/ethereum/src/rinkeby/data
+mkdir -p ~/ethereum/src/rinkeby/light
 
-docker run -d --name ethereum-rinkeby-node \
-    -v ~/ethereum/src/rinkeby/data/:/root \
+docker run -d --name ethereum-rinkeby-light \
+    -v ~/ethereum/src/rinkeby/light/:/root \
     -p 18545:8545 \
     -p 18546:8546 \
     -p 10303:30303 \

@@ -1,15 +1,15 @@
 #! /bin/bash
 
-mkdir -p -v ~/ethereum/src/kovan/data
+mkdir -p -v ~/ethereum/src/kovan/light
 
-docker run -d --name ethereum-kovan-node \
-    -v ~/ethereum/src/kovan/data:/root/.local/share/io.parity.ethereum/ \
+docker run -d --name ethereum-kovan-light \
+    -v ~/ethereum/src/kovan/light:/root/.local/share/io.parity.ethereum/ \
     -p 38545:8545 \
     -p 38546:8546 \
     -p 30303:30303 \
     -p 30303:30303/udp \
-    parity/parity:v1.7.0 \
-    --chain kovan --light --port 30303 \
+    parity/parity:latest \
+    --chain kovan --mode active --light --port 30303 \
     --base-path /root/.local/share/io.parity.ethereum/ \
     --no-dapps --no-ui \
     --jsonrpc-port 8545 \

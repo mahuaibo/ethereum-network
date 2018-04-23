@@ -1,15 +1,15 @@
 #! /bin/bash
 
-mkdir -p ~/ethereum/src/kovan/full
+mkdir -p -v ~/ethereum/src/kovan/full
 
 docker run -d --name ethereum-kovan-full \
     -v ~/ethereum/src/kovan/full:/root/.local/share/io.parity.ethereum/ \
-    -p 18545:8545 \
-    -p 18546:8546 \
-    -p 10303:30303 \
-    -p 10303:30303/udp \
-    parity/parity:v1.7.0 \
-    --chain kovan --port 30303 \
+    -p 38547:8545 \
+    -p 38548:8546 \
+    -p 30304:30303 \
+    -p 30304:30303/udp \
+    parity/parity:latest \
+    --chain kovan --mode active --port 30303 \
     --base-path /root/.local/share/io.parity.ethereum/ \
     --no-dapps --no-ui \
     --jsonrpc-port 8545 \

@@ -13,7 +13,7 @@
 
 > docker pull ethereum/client-go:stable
 >
-> docker pull parity/parity:v1.7.0
+> docker pull parity/parity:latest
 >
 
 ## Using.

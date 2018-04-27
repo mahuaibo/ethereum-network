@@ -11,7 +11,7 @@
 
 ## Download the Docker image.
 
-> docker pull ethereum/client-go:stable
+> docker pull ethereum/client-go:latest
 >
 > docker pull parity/parity:latest
 >

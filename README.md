@@ -1,4 +1,4 @@
-# Ethereum testnet
+# Ethereum network
 
 ## Installing Docker.
 

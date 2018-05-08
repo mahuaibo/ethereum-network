@@ -19,11 +19,11 @@
 
 ## Using.
 
-### Download ethereum-testnet
+### Download ethereum-network
 
-> git clone https://github.com/mahuaibo/ethereum-testnet ~/ethereum-testnet
+> git clone https://github.com/mahuaibo/ethereum-network ~/ethereum-network
 >
-> cd ~/ethereum-testnet
+> cd ~/ethereum-network
 >
 
 ### Rinkeby
@@ -232,7 +232,7 @@ $ sh main/full-logs.sh
 ```
 https://faucet.rinkeby.io/
 http://faucet.ropsten.be:3001/
-https://gitter.im/kovan-testnet/faucet
+https://gitter.im/kovan-network/faucet
 
 MetaMask wallet can also be picked up.
 ```

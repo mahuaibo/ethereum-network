@@ -1,9 +1,9 @@
 #! /bin/bash
 
-mkdir -p ~/ethereum-testnet/main/full
+mkdir -p ~/ethereum-network/main/full
 
 docker run -d --name ethereum-main-full \
-    -v ~/ethereum-testnet/main/full/:/root \
+    -v ~/ethereum-network/main/full/:/root \
     -p 48547:8545 \
     -p 48548:8546 \
     -p 40304:30303 \

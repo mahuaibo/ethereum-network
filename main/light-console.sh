@@ -1,3 +1,3 @@
 #! /bin/bash
 
-geth attach ~/ethereum-testnet/main/light/.ethereum/main/geth.ipc
+geth attach ~/ethereum-network/main/light/.ethereum/main/geth.ipc

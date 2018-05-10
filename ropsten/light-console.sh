@@ -1,3 +1,3 @@
 #! /bin/bash
 
-geth attach ~/ethereum-testnet/ropsten/light/.ethereum/testnet/geth.ipc
+geth attach ~/ethereum-network/ropsten/light/.ethereum/testnet/geth.ipc

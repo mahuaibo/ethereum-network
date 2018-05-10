@@ -1,9 +1,9 @@
 #! /bin/bash
 
-mkdir -p ~/ethereum-testnet/main/light
+mkdir -p ~/ethereum-network/main/light
 
 docker run -d --name ethereum-main-light \
-    -v ~/ethereum-testnet/main/light/:/root \
+    -v ~/ethereum-network/main/light/:/root \
     -p 48545:8545 \
     -p 48546:8546 \
     -p 40303:30303 \

@@ -1,9 +1,9 @@
 #! /bin/bash
 
-mkdir -p ~/ethereum-testnet/ropsten/full
+mkdir -p ~/ethereum-network/ropsten/full
 
 docker run -d --name ethereum-ropsten-full \
-    -v ~/ethereum-testnet/ropsten/full:/root \
+    -v ~/ethereum-network/ropsten/full:/root \
     -p 28547:8545 \
     -p 28548:8546 \
     -p 20304:30303 \

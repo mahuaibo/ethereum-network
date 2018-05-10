@@ -1,3 +1,3 @@
 #! /bin/bash
 
-geth attach ~/ethereum-testnet/kovan/light/jsonrpc.ipc
+geth attach ~/ethereum-network/kovan/light/jsonrpc.ipc

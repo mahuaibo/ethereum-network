@@ -1,9 +1,9 @@
 #! /bin/bash
 
-mkdir -p ~/ethereum-testnet/kovan/full
+mkdir -p ~/ethereum-network/kovan/full
 
 docker run -d --name ethereum-kovan-full \
-    -v ~/ethereum-testnet/kovan/full:/root/.local/share/io.parity.ethereum/ \
+    -v ~/ethereum-network/kovan/full:/root/.local/share/io.parity.ethereum/ \
     -p 38547:8545 \
     -p 38548:8546 \
     -p 30304:30303 \
